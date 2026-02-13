@@ -1,0 +1,2 @@
+[console_scripts]
+drive = base_driver.base_driver:main
