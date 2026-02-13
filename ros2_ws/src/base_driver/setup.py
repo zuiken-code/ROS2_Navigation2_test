@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "drive = base_driver.base_driver:main"
+            "drive = base_driver.driver:main"
         ],
     },
 )
