@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing base_driver.egg-info/PKG-INFO
+writing dependency_links to base_driver.egg-info/dependency_links.txt
+writing entry points to base_driver.egg-info/entry_points.txt
+writing requirements to base_driver.egg-info/requires.txt
+writing top-level names to base_driver.egg-info/top_level.txt
+reading manifest file 'base_driver.egg-info/SOURCES.txt'
+writing manifest file 'base_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base-driver.egg-link (link to .)
+Installing drive script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/base_driver
+
+Installed /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver
+running symlink_data
+symbolically linking /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/resource/base_driver -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/share/ament_index/resource_index/packages
+symbolically linking /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/package.xml -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/share/base_driver

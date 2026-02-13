@@ -10,7 +10,11 @@ setup.py
 ../../build/base_driver/base_driver.egg-info/zip-safe
 base_driver/__init__.py
 base_driver/driver.py
+base_driver.egg-info/PKG-INFO
+base_driver.egg-info/SOURCES.txt
+base_driver.egg-info/dependency_links.txt
+base_driver.egg-info/entry_points.txt
+base_driver.egg-info/requires.txt
+base_driver.egg-info/top_level.txt
+base_driver.egg-info/zip-safe
 resource/base_driver
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
