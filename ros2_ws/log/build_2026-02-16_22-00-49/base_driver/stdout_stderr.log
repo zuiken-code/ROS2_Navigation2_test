@@ -1,0 +1,31 @@
+running develop
+Removing /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base-driver.egg-link (link to .)
+running egg_info
+writing ../../build/base_driver/base_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/base_driver/base_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/base_driver/base_driver.egg-info/entry_points.txt
+writing requirements to ../../build/base_driver/base_driver.egg-info/requires.txt
+writing top-level names to ../../build/base_driver/base_driver.egg-info/top_level.txt
+reading manifest file '../../build/base_driver/base_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/base_driver/base_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying base_driver/encoder.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/build/lib/base_driver
+running install
+running install_lib
+creating /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver
+copying /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/build/lib/base_driver/driver.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver
+copying /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/build/lib/base_driver/__init__.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver
+copying /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/build/lib/base_driver/encoder.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver
+byte-compiling /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver/driver.py to driver.cpython-312.pyc
+byte-compiling /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver/encoder.py to encoder.cpython-312.pyc
+running install_data
+copying resource/base_driver -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/share/base_driver
+running install_egg_info
+Copying ../../build/base_driver/base_driver.egg-info to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver-0.0.0-py3.12.egg-info
+running install_scripts
+Installing drive script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/base_driver
+Installing encoder script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/base_driver
+writing list of installed files to '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/install.log'

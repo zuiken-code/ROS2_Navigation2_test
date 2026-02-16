@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "drive = base_driver.driver:main"
+            "drive = base_driver.driver:main",
+            "encoder = base_driver.encoder:main"
         ],
     },
 )
