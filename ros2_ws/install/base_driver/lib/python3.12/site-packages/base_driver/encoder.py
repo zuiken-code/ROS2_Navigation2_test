@@ -13,8 +13,8 @@ class EncoderOdomNode(Node):
 
         # --- パラメータ設定 ---
         self.declare_parameter('ticks_per_rev', 20.0 * 2) # 20スリット * 2(両エッジ) = 40
-        self.declare_parameter('wheel_radius', 0.0325)    # 半径 (例: 65mmタイヤなら0.0325)
-        self.declare_parameter('wheel_separation', 0.15)  # 車輪間隔 (例: 15cm)
+        self.declare_parameter('wheel_radius', 0.030)    # 半径 (例: 65mmタイヤなら0.0325)
+        self.declare_parameter('wheel_separation', 0.10)  # 車輪間隔 (例: 15cm)
         
         self.ticks_per_rev = self.get_parameter('ticks_per_rev').value
         self.wheel_radius = self.get_parameter('wheel_radius').value
