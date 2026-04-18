@@ -1,3 +1,3 @@
 [console_scripts]
-drive = base_driver.driver:main
-encoder = base_driver.encoder:main
+base_driver = base_driver.driver:main
+encoder_odom = base_driver.encoder:main
