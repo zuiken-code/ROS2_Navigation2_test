@@ -165,33 +165,3 @@ velocity_smoother:
     odom_duration: 0.1
     deadband_velocity: [0.0, 0.0, 0.0]
     velocity_timeout: 1.0
-
-collision_monitor:
-  ros__parameters:
-    use_sim_time: false
-    base_frame_id: "base_footprint"
-    odom_frame_id: "odom"
-    transform_tolerance: 0.2
-    source_timeout: 0.1
-    base_shift_correction: true
-    # polygonsパラメータが必須なため追加
-    polygons: ["Footprint"]
-    Footprint:
-      type: "polygon"
-      prediction_type: "static"
-      action_type: "stop"
-      max_points: 4
-      slowdown_ratio: 0.0
-      visualize: true
-      # ロボットを囲む矩形（半径10cm想定）
-      points: [0.15, 0.15, 0.15, -0.15, -0.15, -0.15, -0.15, 0.15]
-    observation_sources: ["scan"]
-    scan:
-      type: "scan"
-      topic: "/scan"
-
-lifecycle_manager:
-  ros__parameters:
-    use_sim_time: false
-    autostart: true
-    node_names: ['map_server', 'amcl', 'planner_server', 'controller_server', 'behavior_server', 'bt_navigator', 'waypoint_follower', 'velocity_smoother', 'collision_monitor']

@@ -14,6 +14,8 @@ base_driver/encoder.py
 config/nav2_params.yaml
 launch/base_driver.launch.py
 launch/bringup.launch.py
+map/empty_map.pgm
+map/empty_map.yaml
 resource/base_driver
 test/test_copyright.py
 test/test_flake8.py

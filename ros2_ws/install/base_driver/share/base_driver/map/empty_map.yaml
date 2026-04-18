@@ -1,0 +1,6 @@
+image: /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/base_driver/map/empty_map.pgm
+resolution: 0.05        # 1ピクセル = 5cm → 200px = 10m四方の地図
+origin: [-5.0, -5.0, 0.0]  # 地図の左下が(-5m, -5m)
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
