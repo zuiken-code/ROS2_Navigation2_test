@@ -8,7 +8,7 @@ def generate_launch_description():
     # 1. モータードライバーノード (drive)
     motor_node = Node(
         package='base_driver',
-        executable='drive',
+        executable='base_driver',
         name='motor_driver',
         # turtle_teleop_keyのトピック名に合わせるためのリマップ
         remappings=[('/cmd_vel', '/turtle1/cmd_vel')],
@@ -18,8 +18,8 @@ def generate_launch_description():
     # 2. エンコーダーオドメトリノード (encoder_odom_node)
     odom_node = Node(
         package='base_driver',
-        executable='encoder',
-        name='encoder_odom',
+        executable='encoder_odom',
+        name='encoder_odom_node',
         remappings=[('/cmd_vel', '/turtle1/cmd_vel')],
         output='screen'
     )

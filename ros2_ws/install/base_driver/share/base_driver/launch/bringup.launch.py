@@ -9,12 +9,6 @@ def generate_launch_description():
     urdf_file   = os.path.join(pkg_dir, 'urdf', 'robot.urdf.xml')
     map_file    = os.path.join(pkg_dir, 'map', 'empty_map.yaml')
 
-    # nav2_params.yaml の map_server に map_file を上書き
-    nav2_params = [
-        params_file,
-        {'map_server': {'ros__parameters': {'yaml_filename': map_file}}}
-    ]
-
     return LaunchDescription([
 
         # モーター制御
@@ -34,16 +28,19 @@ def generate_launch_description():
              parameters=[{'robot_description': open(urdf_file).read(),
                           'use_sim_time': False}]),
 
+          Node(package='joint_state_publisher',
+          executable='joint_state_publisher',
+          name='joint_state_publisher'),
+
+        # ★ map→odom を静的TFで固定（AMCLの代替）
+        Node(package='base_driver', executable='static_tf_pub',
+             name='static_map_odom_tf', output='screen'),
+
         # 地図サーバー
         Node(package='nav2_map_server', executable='map_server',
              name='map_server', output='screen',
              parameters=[params_file,
                          {'yaml_filename': map_file}]),
-
-        # AMCL（自己位置推定）
-        Node(package='nav2_amcl', executable='amcl',
-             name='amcl', output='screen',
-             parameters=[params_file]),
 
         # プランナー
         Node(package='nav2_planner', executable='planner_server',
@@ -82,13 +79,13 @@ def generate_launch_description():
              name='velocity_smoother', output='screen',
              parameters=[params_file]),
 
-        # ライフサイクルマネージャー（localization）
+        # ライフサイクルマネージャー（localization）: AMCLなし・map_serverのみ
         Node(package='nav2_lifecycle_manager',
              executable='lifecycle_manager',
              name='lifecycle_manager_localization',
              output='screen',
              parameters=[{'autostart': True,
-                          'node_names': ['map_server', 'amcl']}]),
+                          'node_names': ['map_server']}]),
 
         # ライフサイクルマネージャー（navigation）
         Node(package='nav2_lifecycle_manager',
