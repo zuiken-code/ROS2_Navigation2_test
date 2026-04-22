@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: base-driver
+Version: 0.0.0
+Summary: ROS2 Nav2 base driver
+Maintainer: zuiken
+Maintainer-email: zuiken2022robo@gmail.com
+License: MIT

@@ -1,0 +1,382 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (base_driver) JobQueued: {'identifier': 'base_driver', 'dependencies': OrderedDict()}
+[0.000775] (base_driver) JobStarted: {'identifier': 'base_driver'}
+[0.099634] (-) TimerEvent: {}
+[0.200009] (-) TimerEvent: {}
+[0.300345] (-) TimerEvent: {}
+[0.400730] (-) TimerEvent: {}
+[0.501180] (-) TimerEvent: {}
+[0.601537] (-) TimerEvent: {}
+[0.703754] (-) TimerEvent: {}
+[0.804100] (-) TimerEvent: {}
+[0.904441] (-) TimerEvent: {}
+[1.004876] (-) TimerEvent: {}
+[1.105285] (-) TimerEvent: {}
+[1.205703] (-) TimerEvent: {}
+[1.306235] (-) TimerEvent: {}
+[1.406638] (-) TimerEvent: {}
+[1.507203] (-) TimerEvent: {}
+[1.607603] (-) TimerEvent: {}
+[1.707993] (-) TimerEvent: {}
+[1.808464] (-) TimerEvent: {}
+[1.909462] (-) TimerEvent: {}
+[2.009749] (-) TimerEvent: {}
+[2.110098] (-) TimerEvent: {}
+[2.210453] (-) TimerEvent: {}
+[2.310855] (-) TimerEvent: {}
+[2.411239] (-) TimerEvent: {}
+[2.511625] (-) TimerEvent: {}
+[2.612029] (-) TimerEvent: {}
+[2.712402] (-) TimerEvent: {}
+[2.812784] (-) TimerEvent: {}
+[2.913196] (-) TimerEvent: {}
+[3.013586] (-) TimerEvent: {}
+[3.113997] (-) TimerEvent: {}
+[3.214387] (-) TimerEvent: {}
+[3.314777] (-) TimerEvent: {}
+[3.415164] (-) TimerEvent: {}
+[3.515554] (-) TimerEvent: {}
+[3.615975] (-) TimerEvent: {}
+[3.716363] (-) TimerEvent: {}
+[3.816757] (-) TimerEvent: {}
+[3.917150] (-) TimerEvent: {}
+[4.017542] (-) TimerEvent: {}
+[4.117959] (-) TimerEvent: {}
+[4.218346] (-) TimerEvent: {}
+[4.318741] (-) TimerEvent: {}
+[4.419121] (-) TimerEvent: {}
+[4.519503] (-) TimerEvent: {}
+[4.619911] (-) TimerEvent: {}
+[4.720617] (-) TimerEvent: {}
+[4.821543] (-) TimerEvent: {}
+[4.921936] (-) TimerEvent: {}
+[5.022278] (-) TimerEvent: {}
+[5.122657] (-) TimerEvent: {}
+[5.235053] (-) TimerEvent: {}
+[5.335442] (-) TimerEvent: {}
+[5.446988] (-) TimerEvent: {}
+[5.547338] (-) TimerEvent: {}
+[5.647750] (-) TimerEvent: {}
+[5.748142] (-) TimerEvent: {}
+[5.848473] (-) TimerEvent: {}
+[5.984211] (-) TimerEvent: {}
+[6.084549] (-) TimerEvent: {}
+[6.184891] (-) TimerEvent: {}
+[6.285254] (-) TimerEvent: {}
+[6.385690] (-) TimerEvent: {}
+[6.572703] (-) TimerEvent: {}
+[6.673084] (-) TimerEvent: {}
+[6.974109] (-) TimerEvent: {}
+[7.122346] (-) TimerEvent: {}
+[7.223175] (-) TimerEvent: {}
+[7.324512] (-) TimerEvent: {}
+[7.424836] (-) TimerEvent: {}
+[7.525217] (-) TimerEvent: {}
+[7.625591] (-) TimerEvent: {}
+[7.725916] (-) TimerEvent: {}
+[7.826270] (-) TimerEvent: {}
+[7.926721] (-) TimerEvent: {}
+[8.027121] (-) TimerEvent: {}
+[8.127510] (-) TimerEvent: {}
+[8.331157] (-) TimerEvent: {}
+[8.431520] (-) TimerEvent: {}
+[8.531874] (-) TimerEvent: {}
+[8.632272] (-) TimerEvent: {}
+[8.762815] (-) TimerEvent: {}
+[8.863154] (-) TimerEvent: {}
+[8.963505] (-) TimerEvent: {}
+[9.063981] (-) TimerEvent: {}
+[9.164639] (-) TimerEvent: {}
+[9.264996] (-) TimerEvent: {}
+[9.365373] (-) TimerEvent: {}
+[9.465741] (-) TimerEvent: {}
+[9.566203] (-) TimerEvent: {}
+[9.666789] (-) TimerEvent: {}
+[9.767123] (-) TimerEvent: {}
+[9.867489] (-) TimerEvent: {}
+[10.469481] (-) TimerEvent: {}
+[10.569890] (-) TimerEvent: {}
+[10.917347] (-) TimerEvent: {}
+[11.159244] (-) TimerEvent: {}
+[11.259707] (-) TimerEvent: {}
+[11.360020] (-) TimerEvent: {}
+[11.460368] (-) TimerEvent: {}
+[11.560723] (-) TimerEvent: {}
+[11.661058] (-) TimerEvent: {}
+[11.761408] (-) TimerEvent: {}
+[11.861822] (-) TimerEvent: {}
+[11.962205] (-) TimerEvent: {}
+[12.179883] (-) TimerEvent: {}
+[12.280260] (-) TimerEvent: {}
+[12.380599] (-) TimerEvent: {}
+[12.480955] (-) TimerEvent: {}
+[12.581291] (-) TimerEvent: {}
+[12.681634] (-) TimerEvent: {}
+[12.906151] (-) TimerEvent: {}
+[13.007195] (-) TimerEvent: {}
+[13.107503] (-) TimerEvent: {}
+[13.207845] (-) TimerEvent: {}
+[13.308208] (-) TimerEvent: {}
+[13.408744] (-) TimerEvent: {}
+[13.509116] (-) TimerEvent: {}
+[13.609444] (-) TimerEvent: {}
+[13.709777] (-) TimerEvent: {}
+[13.810151] (-) TimerEvent: {}
+[13.910528] (-) TimerEvent: {}
+[14.010938] (-) TimerEvent: {}
+[14.111318] (-) TimerEvent: {}
+[14.211706] (-) TimerEvent: {}
+[14.312091] (-) TimerEvent: {}
+[14.412459] (-) TimerEvent: {}
+[14.512844] (-) TimerEvent: {}
+[14.660142] (-) TimerEvent: {}
+[14.760559] (-) TimerEvent: {}
+[14.860978] (-) TimerEvent: {}
+[14.961320] (-) TimerEvent: {}
+[15.061709] (-) TimerEvent: {}
+[15.162110] (-) TimerEvent: {}
+[15.262504] (-) TimerEvent: {}
+[15.362898] (-) TimerEvent: {}
+[15.463280] (-) TimerEvent: {}
+[15.563655] (-) TimerEvent: {}
+[15.664030] (-) TimerEvent: {}
+[15.764395] (-) TimerEvent: {}
+[15.864758] (-) TimerEvent: {}
+[15.965128] (-) TimerEvent: {}
+[16.065516] (-) TimerEvent: {}
+[16.447352] (-) TimerEvent: {}
+[16.547737] (-) TimerEvent: {}
+[16.648108] (-) TimerEvent: {}
+[16.957427] (-) TimerEvent: {}
+[17.057833] (-) TimerEvent: {}
+[17.158225] (-) TimerEvent: {}
+[17.258616] (-) TimerEvent: {}
+[17.359021] (-) TimerEvent: {}
+[17.459413] (-) TimerEvent: {}
+[17.559854] (-) TimerEvent: {}
+[17.660242] (-) TimerEvent: {}
+[17.760629] (-) TimerEvent: {}
+[17.861024] (-) TimerEvent: {}
+[17.961405] (-) TimerEvent: {}
+[18.061795] (-) TimerEvent: {}
+[18.162189] (-) TimerEvent: {}
+[18.262573] (-) TimerEvent: {}
+[18.362985] (-) TimerEvent: {}
+[18.463371] (-) TimerEvent: {}
+[18.563764] (-) TimerEvent: {}
+[18.664175] (-) TimerEvent: {}
+[18.764562] (-) TimerEvent: {}
+[18.864971] (-) TimerEvent: {}
+[18.965370] (-) TimerEvent: {}
+[19.065858] (-) TimerEvent: {}
+[19.166209] (-) TimerEvent: {}
+[20.520630] (-) TimerEvent: {}
+[20.621017] (-) TimerEvent: {}
+[20.721382] (-) TimerEvent: {}
+[20.821763] (-) TimerEvent: {}
+[20.922143] (-) TimerEvent: {}
+[21.022529] (-) TimerEvent: {}
+[21.123001] (-) TimerEvent: {}
+[23.098150] (-) TimerEvent: {}
+[23.198522] (-) TimerEvent: {}
+[23.298894] (-) TimerEvent: {}
+[23.399260] (-) TimerEvent: {}
+[23.499656] (-) TimerEvent: {}
+[23.600044] (-) TimerEvent: {}
+[23.700432] (-) TimerEvent: {}
+[23.800844] (-) TimerEvent: {}
+[23.901239] (-) TimerEvent: {}
+[24.001631] (-) TimerEvent: {}
+[24.102033] (-) TimerEvent: {}
+[24.202399] (-) TimerEvent: {}
+[24.302783] (-) TimerEvent: {}
+[24.403173] (-) TimerEvent: {}
+[24.503543] (-) TimerEvent: {}
+[24.603919] (-) TimerEvent: {}
+[24.704293] (-) TimerEvent: {}
+[24.804653] (-) TimerEvent: {}
+[24.900352] (base_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/base_driver', 'build', '--build-base', '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/build', 'install', '--record', '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/base_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zuiken', 'SSH_CLIENT': '240d:1a:3b0:ce00:e4d6:2034:d97b:5f4d 51173 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/zuiken/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/zuiken/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/bin/helpers/browser.sh', 'HOME': '/home/zuiken', 'OLDPWD': '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/base_driver', 'TERM_PROGRAM_VERSION': '1.116.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-06b8669e-a3a4-4ae3-9490-d38eaf4d54f0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zuiken/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/zuiken/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zuiken', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/zuiken/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/zuiken/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/zuiken/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9cb308246.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '240d:1a:3b0:ce00:e4d6:2034:d97b:5f4d 51173 240d:1a:3b0:ce00:2ecf:67ff:fe91:bf11 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[24.904867] (-) TimerEvent: {}
+[25.005218] (-) TimerEvent: {}
+[25.105628] (-) TimerEvent: {}
+[25.205970] (-) TimerEvent: {}
+[25.306304] (-) TimerEvent: {}
+[25.366500] (base_driver) StdoutLine: {'line': b'running egg_info\n'}
+[25.403860] (base_driver) StdoutLine: {'line': b'writing ../build/base_driver/base_driver.egg-info/PKG-INFO\n'}
+[25.406367] (-) TimerEvent: {}
+[25.506618] (-) TimerEvent: {}
+[25.607019] (-) TimerEvent: {}
+[25.654608] (base_driver) StdoutLine: {'line': b'writing dependency_links to ../build/base_driver/base_driver.egg-info/dependency_links.txt\n'}
+[25.655152] (base_driver) StdoutLine: {'line': b'writing entry points to ../build/base_driver/base_driver.egg-info/entry_points.txt\n'}
+[25.655509] (base_driver) StdoutLine: {'line': b'writing requirements to ../build/base_driver/base_driver.egg-info/requires.txt\n'}
+[25.655827] (base_driver) StdoutLine: {'line': b'writing top-level names to ../build/base_driver/base_driver.egg-info/top_level.txt\n'}
+[25.707109] (-) TimerEvent: {}
+[25.736699] (base_driver) StdoutLine: {'line': b"reading manifest file '../build/base_driver/base_driver.egg-info/SOURCES.txt'\n"}
+[25.807236] (-) TimerEvent: {}
+[27.687861] (base_driver) StdoutLine: {'line': b"writing manifest file '../build/base_driver/base_driver.egg-info/SOURCES.txt'\n"}
+[27.688187] (-) TimerEvent: {}
+[27.688443] (base_driver) StdoutLine: {'line': b'running build\n'}
+[27.689133] (base_driver) StdoutLine: {'line': b'running build_py\n'}
+[27.689302] (base_driver) StdoutLine: {'line': b'copying base_driver/static_tf_pub.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/build/lib/base_driver\n'}
+[27.702118] (base_driver) StdoutLine: {'line': b'copying base_driver/driver.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/build/lib/base_driver\n'}
+[27.702439] (base_driver) StdoutLine: {'line': b'copying base_driver/encoder.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/build/lib/base_driver\n'}
+[27.788326] (-) TimerEvent: {}
+[28.274060] (base_driver) StdoutLine: {'line': b'running install\n'}
+[28.274392] (-) TimerEvent: {}
+[28.288431] (base_driver) StdoutLine: {'line': b'running install_lib\n'}
+[28.327162] (base_driver) StdoutLine: {'line': b'copying /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/build/lib/base_driver/static_tf_pub.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver\n'}
+[28.327459] (base_driver) StdoutLine: {'line': b'copying /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/build/lib/base_driver/driver.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver\n'}
+[28.327657] (base_driver) StdoutLine: {'line': b'copying /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/build/lib/base_driver/encoder.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver\n'}
+[28.328475] (base_driver) StdoutLine: {'line': b'byte-compiling /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver/static_tf_pub.py to static_tf_pub.cpython-312.pyc\n'}
+[28.329154] (base_driver) StdoutLine: {'line': b'byte-compiling /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver/driver.py to driver.cpython-312.pyc\n'}
+[28.374529] (-) TimerEvent: {}
+[28.475058] (-) TimerEvent: {}
+[28.575433] (-) TimerEvent: {}
+[28.675844] (-) TimerEvent: {}
+[28.776234] (-) TimerEvent: {}
+[28.876614] (-) TimerEvent: {}
+[28.976992] (-) TimerEvent: {}
+[28.994307] (base_driver) StdoutLine: {'line': b'byte-compiling /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver/encoder.py to encoder.cpython-312.pyc\n'}
+[28.997378] (base_driver) StdoutLine: {'line': b'running install_data\n'}
+[28.997751] (base_driver) StdoutLine: {'line': b'creating /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/urdf\n'}
+[28.998127] (base_driver) StdoutLine: {'line': b'copying urdf/robot.urdf.xml -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/urdf\n'}
+[29.077132] (-) TimerEvent: {}
+[29.177522] (-) TimerEvent: {}
+[29.277923] (-) TimerEvent: {}
+[29.378312] (-) TimerEvent: {}
+[29.478710] (-) TimerEvent: {}
+[29.579096] (-) TimerEvent: {}
+[29.679493] (-) TimerEvent: {}
+[29.779900] (-) TimerEvent: {}
+[29.880283] (-) TimerEvent: {}
+[29.887230] (base_driver) StdoutLine: {'line': b'creating /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/config\n'}
+[29.887652] (base_driver) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/config\n'}
+[29.980435] (-) TimerEvent: {}
+[30.238349] (-) TimerEvent: {}
+[30.338736] (-) TimerEvent: {}
+[30.439115] (-) TimerEvent: {}
+[30.539498] (-) TimerEvent: {}
+[30.639885] (-) TimerEvent: {}
+[30.740271] (-) TimerEvent: {}
+[30.840655] (-) TimerEvent: {}
+[30.941058] (-) TimerEvent: {}
+[31.041452] (-) TimerEvent: {}
+[31.192812] (base_driver) StdoutLine: {'line': b'creating /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/map\n'}
+[31.193272] (-) TimerEvent: {}
+[31.193496] (base_driver) StdoutLine: {'line': b'copying map/empty_map.yaml -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/map\n'}
+[31.193791] (base_driver) StdoutLine: {'line': b'copying map/make_map.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/map\n'}
+[31.194003] (base_driver) StdoutLine: {'line': b'copying map/my_map1.pgm -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/map\n'}
+[31.194174] (base_driver) StdoutLine: {'line': b'copying map/empty_map.pgm -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/map\n'}
+[31.194298] (base_driver) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/launch\n'}
+[31.210924] (base_driver) StdoutLine: {'line': b'copying launch/base_driver.launch.py -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/share/base_driver/launch\n'}
+[31.293395] (-) TimerEvent: {}
+[31.393757] (-) TimerEvent: {}
+[31.431442] (base_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[31.471448] (base_driver) StdoutLine: {'line': b"removing '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[31.471960] (base_driver) StdoutLine: {'line': b'Copying ../build/base_driver/base_driver.egg-info to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/python3.12/site-packages/base_driver-0.0.0-py3.12.egg-info\n'}
+[31.493834] (-) TimerEvent: {}
+[31.594117] (-) TimerEvent: {}
+[31.694473] (-) TimerEvent: {}
+[31.794860] (-) TimerEvent: {}
+[31.895256] (-) TimerEvent: {}
+[31.995642] (-) TimerEvent: {}
+[32.040107] (base_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[32.095737] (-) TimerEvent: {}
+[32.196047] (-) TimerEvent: {}
+[32.287175] (base_driver) StdoutLine: {'line': b'Installing base_driver script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/base_driver\n'}
+[32.287482] (base_driver) StdoutLine: {'line': b'Installing encoder_odom script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/base_driver\n'}
+[32.287640] (base_driver) StdoutLine: {'line': b'Installing static_tf_pub script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/install/base_driver/lib/base_driver\n'}
+[32.288127] (base_driver) StdoutLine: {'line': b"writing list of installed files to '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/build/base_driver/install.log'\n"}
+[32.296104] (-) TimerEvent: {}
+[32.396355] (-) TimerEvent: {}
+[32.496770] (-) TimerEvent: {}
+[32.597151] (-) TimerEvent: {}
+[32.697548] (-) TimerEvent: {}
+[32.797935] (-) TimerEvent: {}
+[32.898340] (-) TimerEvent: {}
+[32.998796] (-) TimerEvent: {}
+[33.099181] (-) TimerEvent: {}
+[33.199544] (-) TimerEvent: {}
+[33.299935] (-) TimerEvent: {}
+[33.400325] (-) TimerEvent: {}
+[33.500731] (-) TimerEvent: {}
+[33.601099] (-) TimerEvent: {}
+[33.701472] (-) TimerEvent: {}
+[33.737326] (base_driver) CommandEnded: {'returncode': 0}
+[33.801562] (-) TimerEvent: {}
+[33.901918] (-) TimerEvent: {}
+[34.002289] (-) TimerEvent: {}
+[34.102672] (-) TimerEvent: {}
+[34.203052] (-) TimerEvent: {}
+[34.303402] (-) TimerEvent: {}
+[34.403759] (-) TimerEvent: {}
+[36.291708] (-) TimerEvent: {}
+[36.570490] (-) TimerEvent: {}
+[36.670892] (-) TimerEvent: {}
+[36.771252] (-) TimerEvent: {}
+[36.871624] (-) TimerEvent: {}
+[36.972027] (-) TimerEvent: {}
+[37.072411] (-) TimerEvent: {}
+[37.172802] (-) TimerEvent: {}
+[37.273168] (-) TimerEvent: {}
+[37.373560] (-) TimerEvent: {}
+[37.473960] (-) TimerEvent: {}
+[37.574331] (-) TimerEvent: {}
+[37.674725] (-) TimerEvent: {}
+[37.775105] (-) TimerEvent: {}
+[37.875492] (-) TimerEvent: {}
+[37.975912] (-) TimerEvent: {}
+[38.076315] (-) TimerEvent: {}
+[38.176698] (-) TimerEvent: {}
+[38.277079] (-) TimerEvent: {}
+[38.377464] (-) TimerEvent: {}
+[38.477862] (-) TimerEvent: {}
+[38.578234] (-) TimerEvent: {}
+[39.852317] (-) TimerEvent: {}
+[39.952712] (-) TimerEvent: {}
+[40.053085] (-) TimerEvent: {}
+[40.153454] (-) TimerEvent: {}
+[40.253830] (-) TimerEvent: {}
+[40.354161] (-) TimerEvent: {}
+[40.454551] (-) TimerEvent: {}
+[40.554951] (-) TimerEvent: {}
+[40.655344] (-) TimerEvent: {}
+[40.755742] (-) TimerEvent: {}
+[40.856118] (-) TimerEvent: {}
+[40.956525] (-) TimerEvent: {}
+[41.056931] (-) TimerEvent: {}
+[41.157319] (-) TimerEvent: {}
+[41.257711] (-) TimerEvent: {}
+[41.358084] (-) TimerEvent: {}
+[41.458465] (-) TimerEvent: {}
+[41.558852] (-) TimerEvent: {}
+[41.659204] (-) TimerEvent: {}
+[41.759535] (-) TimerEvent: {}
+[41.859893] (-) TimerEvent: {}
+[41.960272] (-) TimerEvent: {}
+[42.060660] (-) TimerEvent: {}
+[42.161069] (-) TimerEvent: {}
+[42.261459] (-) TimerEvent: {}
+[42.361852] (-) TimerEvent: {}
+[42.462302] (-) TimerEvent: {}
+[42.582360] (-) TimerEvent: {}
+[42.682756] (-) TimerEvent: {}
+[42.783143] (-) TimerEvent: {}
+[42.883544] (-) TimerEvent: {}
+[42.983958] (-) TimerEvent: {}
+[43.084349] (-) TimerEvent: {}
+[43.184751] (-) TimerEvent: {}
+[43.285146] (-) TimerEvent: {}
+[43.385536] (-) TimerEvent: {}
+[43.485934] (-) TimerEvent: {}
+[43.586303] (-) TimerEvent: {}
+[43.686653] (-) TimerEvent: {}
+[43.786988] (-) TimerEvent: {}
+[43.887317] (-) TimerEvent: {}
+[43.987652] (-) TimerEvent: {}
+[44.121442] (-) TimerEvent: {}
+[44.222389] (-) TimerEvent: {}
+[44.322710] (-) TimerEvent: {}
+[44.817952] (base_driver) JobEnded: {'identifier': 'base_driver', 'rc': 0}
+[44.819286] (-) TimerEvent: {}
+[44.819429] (-) EventReactorShutdown: {}

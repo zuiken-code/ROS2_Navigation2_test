@@ -1,0 +1,24 @@
+[2.249s] Invoking command in '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/base_driver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_driver build --build-base /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/build install --record /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/install.log --single-version-externally-managed install_data
+[2.885s] running egg_info
+[2.949s] writing ../../build/base_driver/base_driver.egg-info/PKG-INFO
+[2.950s] writing dependency_links to ../../build/base_driver/base_driver.egg-info/dependency_links.txt
+[2.953s] writing entry points to ../../build/base_driver/base_driver.egg-info/entry_points.txt
+[2.956s] writing requirements to ../../build/base_driver/base_driver.egg-info/requires.txt
+[2.959s] writing top-level names to ../../build/base_driver/base_driver.egg-info/top_level.txt
+[3.080s] reading manifest file '../../build/base_driver/base_driver.egg-info/SOURCES.txt'
+[3.082s] writing manifest file '../../build/base_driver/base_driver.egg-info/SOURCES.txt'
+[3.083s] running build
+[3.083s] running build_py
+[3.084s] running install
+[3.101s] running install_lib
+[3.165s] running install_data
+[3.165s] copying map/empty_map.yaml -> /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/share/base_driver/map
+[3.166s] running install_egg_info
+[3.223s] removing '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver-0.0.0-py3.12.egg-info' (and everything under it)
+[3.223s] Copying ../../build/base_driver/base_driver.egg-info to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages/base_driver-0.0.0-py3.12.egg-info
+[3.230s] running install_scripts
+[3.587s] Installing base_driver script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/base_driver
+[3.588s] Installing encoder_odom script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/base_driver
+[3.588s] Installing static_tf_pub script to /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/base_driver
+[3.588s] writing list of installed files to '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/install.log'
+[3.753s] Invoked command in '/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/src/base_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/install/base_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_driver build --build-base /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/build install --record /home/zuiken/Documents/ROS2_Navigation2_test/ros2_ws/build/base_driver/install.log --single-version-externally-managed install_data
