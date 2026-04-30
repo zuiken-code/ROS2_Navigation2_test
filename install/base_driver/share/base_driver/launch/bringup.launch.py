@@ -12,21 +12,25 @@ def generate_launch_description():
     return LaunchDescription([
 
         # モーター制御
-        Node(package='base_driver', executable='base_driver',
-             name='base_driver', output='screen'),
+     #    Node(package='base_driver', executable='base_driver',
+     #         name='base_driver', output='screen'),
 
-        # エンコーダーオドメトリ
-        Node(package='base_driver', executable='encoder_odom',
-             name='encoder_odom_node', output='screen',
-             parameters=[{'ticks_per_rev': 40.0,
-                          'wheel_radius': 0.030,
-                          'wheel_separation': 0.10}]),
+     #    # エンコーダーオドメトリ
+     #    Node(package='base_driver', executable='encoder_odom',
+     #         name='encoder_odom_node', output='screen',
+     #         parameters=[{'ticks_per_rev': 40.0,
+     #                      'wheel_radius': 0.030,
+     #                      'wheel_separation': 0.10}]),
 
         # URDF → TF
         Node(package='robot_state_publisher',
              executable='robot_state_publisher',
              parameters=[{'robot_description': open(urdf_file).read(),
                           'use_sim_time': False}]),
+
+          # Node(package='joint_state_publisher',
+          # executable='joint_state_publisher',
+          # name='joint_state_publisher'),
 
         # ★ map→odom を静的TFで固定（AMCLの代替）
         Node(package='base_driver', executable='static_tf_pub',

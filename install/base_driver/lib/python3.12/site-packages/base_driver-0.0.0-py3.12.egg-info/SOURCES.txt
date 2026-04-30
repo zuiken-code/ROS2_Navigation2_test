@@ -17,6 +17,8 @@ launch/base_driver.launch.py
 launch/bringup.launch.py
 map/empty_map.pgm
 map/empty_map.yaml
+map/make_map.py
+map/my_map1.pgm
 resource/base_driver
 test/test_copyright.py
 test/test_flake8.py
