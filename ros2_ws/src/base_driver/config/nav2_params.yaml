@@ -50,7 +50,7 @@ controller_server:
       regulated_linear_scaling_min_speed: 0.1
       use_rotate_to_heading: true
       rotate_to_heading_angular_vel: 0.2
-      max_angular_accel: 0.4
+      max_angular_accel: 0.2
       use_collision_detection: false
 
 local_costmap:

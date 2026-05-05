@@ -13,6 +13,7 @@ base_driver/driver.py
 base_driver/encoder.py
 base_driver/static_tf_pub.py
 config/nav2_params.yaml
+config/rviz2_config.rviz
 launch/base_driver.launch.py
 launch/bringup.launch.py
 map/empty_map.pgm

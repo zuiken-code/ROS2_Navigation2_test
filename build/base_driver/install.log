@@ -10,6 +10,7 @@
 /home/zuiken/Documents/ROS2_Navigation2_test/install/base_driver/share/base_driver/package.xml
 /home/zuiken/Documents/ROS2_Navigation2_test/install/base_driver/share/base_driver/urdf/robot.urdf.xml
 /home/zuiken/Documents/ROS2_Navigation2_test/install/base_driver/share/base_driver/config/nav2_params.yaml
+/home/zuiken/Documents/ROS2_Navigation2_test/install/base_driver/share/base_driver/config/rviz2_config.rviz
 /home/zuiken/Documents/ROS2_Navigation2_test/install/base_driver/share/base_driver/map/empty_map.yaml
 /home/zuiken/Documents/ROS2_Navigation2_test/install/base_driver/share/base_driver/map/make_map.py
 /home/zuiken/Documents/ROS2_Navigation2_test/install/base_driver/share/base_driver/map/my_map1.pgm

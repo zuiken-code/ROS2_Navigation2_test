@@ -5,8 +5,8 @@ from gpiozero import Motor
 
 RIGHT_MOTOR_PINS = (18, 17)
 LEFT_MOTOR_PINS  = (23, 22)
-GAIN_LINEAR  = 5.0
-GAIN_ANGULAR = 0.5
+GAIN_LINEAR  = 7.0
+GAIN_ANGULAR = 0.7
 
 class BaseDriver(Node):
     def __init__(self):

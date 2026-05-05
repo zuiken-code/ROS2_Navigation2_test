@@ -11,7 +11,7 @@ def generate_launch_description():
 
     return LaunchDescription([
 
-        # モーター制御
+        #モーター制御
         Node(package='base_driver', executable='base_driver',
              name='base_driver', output='screen'),
 
