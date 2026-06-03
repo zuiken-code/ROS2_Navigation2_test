@@ -12,6 +12,7 @@ base_driver/__init__.py
 base_driver/driver.py
 base_driver/encoder.py
 base_driver/static_tf_pub.py
+base_driver/web_dashboard.py
 config/nav2_params.yaml
 config/rviz2_config.rviz
 launch/base_driver.launch.py
@@ -25,3 +26,6 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/robot.urdf.xml
+web/app.js
+web/index.html
+web/style.css
