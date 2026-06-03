@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
 import glob
 
+
 package_name = 'base_driver'
 
 setup(
@@ -11,10 +12,11 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/urdf',   glob.glob('urdf/*')),
+        ('share/' + package_name + '/urdf', glob.glob('urdf/*')),
         ('share/' + package_name + '/config', glob.glob('config/*')),
-        ('share/' + package_name + '/map',    glob.glob('map/*')),   # ← map追加
-        ('share/' + package_name + '/launch', glob.glob('launch/*')), # ← launchは1行だけ
+        ('share/' + package_name + '/map', glob.glob('map/*')),
+        ('share/' + package_name + '/web', glob.glob('web/*')),
+        ('share/' + package_name + '/launch', glob.glob('launch/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,9 +26,10 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'base_driver  = base_driver.driver:main',
+            'base_driver = base_driver.driver:main',
             'encoder_odom = base_driver.encoder:main',
-            'static_tf_pub    = base_driver.static_tf_pub:main',
+            'static_tf_pub = base_driver.static_tf_pub:main',
+            'web_dashboard = base_driver.web_dashboard:main',
         ],
     },
 )
