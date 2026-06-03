@@ -1,5 +1,13 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
+from ament_index_python.packages import get_package_share_directory
+import os
+
+joy_config = os.path.join(
+    get_package_share_directory('base_driver'),
+    'config',
+    'joy.yaml'
+)
 
 
 def generate_launch_description():
@@ -20,6 +28,23 @@ def generate_launch_description():
         'i_limit': 0.3,
     }
 
+    joy_teleop_node = Node(
+        package='teleop_twist_joy',
+        executable='teleop_node',
+        name='teleop_twist_joy_node',
+        remappings=[
+            ('/cmd_vel', '/turtle1/cmd_vel')
+            ],
+        parameters=[joy_config],
+        output='screen',
+        )
+
+    joy_node = Node(
+    package='joy',
+    executable='joy_node',
+    name='joy_node',
+    output='screen',
+)
     motor_node = Node(
         package='base_driver',
         executable='base_driver',
@@ -70,4 +95,6 @@ def generate_launch_description():
         dashboard_node,
         static_tf_node,
         rviz_node,
+        joy_teleop_node,
+        joy_node,
     ])

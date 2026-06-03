@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ROS2 Robot Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="mark"></span>
+        <div>
+          <strong>ROS2 Dashboard</strong>
+          <small id="connectionText">Connecting</small>
+        </div>
+      </div>
+      <nav class="tabs" aria-label="Dashboard tabs">
+        <button class="tab active" type="button">Drive</button>
+        <button class="tab" type="button">Nav2</button>
+      </nav>
+      <div class="actions">
+        <button id="addWidgetButton" class="tool-button" type="button" title="Add widget">+</button>
+        <button id="resetLayoutButton" class="tool-button" type="button" title="Reset layout">R</button>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section id="grid" class="grid" aria-label="Dashboard widgets"></section>
+    </main>
+
+    <aside id="drawer" class="drawer" aria-hidden="true">
+      <div class="drawer-head">
+        <div>
+          <strong>Add Widget</strong>
+          <small>Choose a registered data name</small>
+        </div>
+        <button id="closeDrawerButton" class="icon-button" type="button" title="Close">x</button>
+      </div>
+      <input id="sourceSearch" class="search" type="search" placeholder="Search data names">
+      <div id="sourceList" class="source-list"></div>
+    </aside>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -11,16 +11,31 @@ def generate_launch_description():
 
     return LaunchDescription([
 
-        # モーター制御
-     #    Node(package='base_driver', executable='base_driver',
-     #         name='base_driver', output='screen'),
+        #モーター制御
+        Node(package='base_driver', executable='base_driver',
+             name='base_driver', output='screen',
+             parameters=[{'wheel_separation': 0.10,
+                          'control_period': 0.05,
+                          'cmd_timeout': 0.5,
+                          'odom_timeout': 0.5,
+                          'ff_output': 0.25,
+                          'kp': 2.0,
+                          'ki': 0.0,
+                          'kd': 0.0,
+                          'i_limit': 0.3}]),
 
-     #    # エンコーダーオドメトリ
-     #    Node(package='base_driver', executable='encoder_odom',
-     #         name='encoder_odom_node', output='screen',
-     #         parameters=[{'ticks_per_rev': 40.0,
-     #                      'wheel_radius': 0.030,
-     #                      'wheel_separation': 0.10}]),
+        # エンコーダーオドメトリ
+        Node(package='base_driver', executable='encoder_odom',
+             name='encoder_odom_node', output='screen',
+             parameters=[{'ticks_per_rev': 40.0,
+                          'wheel_radius': 0.030,
+                          'wheel_separation': 0.10}]),
+
+        Node(package='base_driver', executable='web_dashboard',
+             name='web_dashboard', output='screen',
+             parameters=[{'host': '0.0.0.0',
+                          'port': 5800,
+                          'wheel_separation': 0.10}]),
 
         # URDF → TF
         Node(package='robot_state_publisher',
@@ -28,9 +43,9 @@ def generate_launch_description():
              parameters=[{'robot_description': open(urdf_file).read(),
                           'use_sim_time': False}]),
 
-          # Node(package='joint_state_publisher',
-          # executable='joint_state_publisher',
-          # name='joint_state_publisher'),
+          Node(package='joint_state_publisher',
+          executable='joint_state_publisher',
+          name='joint_state_publisher'),
 
         # ★ map→odom を静的TFで固定（AMCLの代替）
         Node(package='base_driver', executable='static_tf_pub',
