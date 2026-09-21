@@ -54,7 +54,7 @@ class EncoderOdomNode(Node):
             Twist, 'cmd_vel', self.cmd_vel_callback, 10)
 
         self.create_timer(0.002, self.poll_encoders)  # 500Hz ポーリング
-        self.create_timer(0.1,   self.timer_callback) # 10Hz オドメトリ
+        self.create_timer(0.05,  self.timer_callback) # 20Hz オドメトリ
         self.get_logger().info('EncoderOdom started!')
 
     def poll_encoders(self):
