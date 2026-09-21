@@ -14,8 +14,8 @@ class EncoderOdomNode(Node):
         super().__init__('encoder_odom_node')
 
         self.declare_parameter('ticks_per_rev',    40.0)
-        self.declare_parameter('wheel_radius',     0.030)
-        self.declare_parameter('wheel_separation', 0.10)
+        self.declare_parameter('wheel_radius',     0.035)
+        self.declare_parameter('wheel_separation', 0.14)
         self.ticks_per_rev    = self.get_parameter('ticks_per_rev').value
         self.wheel_radius     = self.get_parameter('wheel_radius').value
         self.wheel_separation = self.get_parameter('wheel_separation').value
@@ -54,7 +54,7 @@ class EncoderOdomNode(Node):
             Twist, 'cmd_vel', self.cmd_vel_callback, 10)
 
         self.create_timer(0.002, self.poll_encoders)  # 500Hz ポーリング
-        self.create_timer(0.1,   self.timer_callback) # 10Hz オドメトリ
+        self.create_timer(0.05,  self.timer_callback) # 20Hz オドメトリ
         self.get_logger().info('EncoderOdom started!')
 
     def poll_encoders(self):

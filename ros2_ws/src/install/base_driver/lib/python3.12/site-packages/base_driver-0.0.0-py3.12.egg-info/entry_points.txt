@@ -2,3 +2,4 @@
 base_driver = base_driver.driver:main
 encoder_odom = base_driver.encoder:main
 static_tf_pub = base_driver.static_tf_pub:main
+web_dashboard = base_driver.web_dashboard:main
