@@ -45,7 +45,7 @@ class BaseDriver(Node):
     def __init__(self):
         super().__init__('base_driver')
 
-        self.declare_parameter('wheel_separation', 0.10)
+        self.declare_parameter('wheel_separation', 0.14)
         self.declare_parameter('control_period', 0.05)
         self.declare_parameter('cmd_timeout', 0.5)
         self.declare_parameter('odom_timeout', 0.5)

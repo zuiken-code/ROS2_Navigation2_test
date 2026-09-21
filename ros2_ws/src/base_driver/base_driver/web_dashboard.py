@@ -83,7 +83,7 @@ class DashboardNode(Node):
         super().__init__('web_dashboard')
         self.declare_parameter('host', '0.0.0.0')
         self.declare_parameter('port', 5800)
-        self.declare_parameter('wheel_separation', 0.10)
+        self.declare_parameter('wheel_separation', 0.14)
 
         self.store = DashboardStore()
         self.wheel_separation = self.get_parameter('wheel_separation').value

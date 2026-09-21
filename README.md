@@ -177,10 +177,10 @@ python3 make_map.py
 
 | パラメータ | 値 | 説明 |
 |---|---|---|
-| `wheel_radius` | 0.030 m | 車輪半径 |
-| `wheel_separation` | 0.10 m | 車輪間距離（トレッド） |
+| `wheel_radius` | 0.035 m | 車輪半径 |
+| `wheel_separation` | 0.14 m | 車輪間距離（トレッド） |
 | `ticks_per_rev` | 40 | エンコーダーの 1 回転あたりのティック数 |
-| `robot_radius` | 0.10 m | ロボットの衝突判定半径 |
+| `footprint` | 0.24m × 0.14m | ロボットの衝突判定形状（長方形: 前方+140mm / 後方-100mm） |
 
 ### Nav2 主要パラメータ
 

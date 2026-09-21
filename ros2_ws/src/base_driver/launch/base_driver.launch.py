@@ -13,11 +13,11 @@ joy_config = os.path.join(
 def generate_launch_description():
     wheel_params = {
         'ticks_per_rev': 40.0,
-        'wheel_radius': 0.030,
-        'wheel_separation': 0.10,
+        'wheel_radius': 0.035,
+        'wheel_separation': 0.14,
     }
     pid_params = {
-        'wheel_separation': 0.10,
+        'wheel_separation': 0.14,
         'control_period': 0.05,
         'cmd_timeout': 0.5,
         'odom_timeout': 0.5,
@@ -84,7 +84,7 @@ def generate_launch_description():
         parameters=[{
             'host': '0.0.0.0',
             'port': 5800,
-            'wheel_separation': 0.10,
+            'wheel_separation': 0.14,
         }],
         output='screen',
     )
