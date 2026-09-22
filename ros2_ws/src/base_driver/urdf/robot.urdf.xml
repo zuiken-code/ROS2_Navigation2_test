@@ -62,12 +62,29 @@
     <axis xyz="0 0 1"/>
   </joint>
 
-  <!-- 超音波センサーフレーム（前方） -->
-  <link name="laser_frame"/>
+  <!-- LiDAR (YDLIDAR T-mini Plus): ロボット前端(+0.14m)から50mm手前 (x = +0.09m), 左右中央 (y = 0.0m) -->
+  <link name="laser_frame">
+    <visual>
+      <geometry><cylinder radius="0.03" length="0.03"/></geometry>
+      <origin xyz="0 0 -0.005"/>
+      <material name="dark_grey">
+        <color rgba="0.2 0.2 0.2 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry><cylinder radius="0.03" length="0.03"/></geometry>
+      <origin xyz="0 0 -0.005"/>
+    </collision>
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.00001" iyy="0.00001" izz="0.00001"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
   <joint name="laser_joint" type="fixed">
     <parent link="base_link"/>
     <child  link="laser_frame"/>
-    <origin xyz="0.13 0.0 0.03" rpy="0 0 0"/>
+    <origin xyz="0.09 0.0 0.06" rpy="0 0 0"/>
   </joint>
 
 </robot>

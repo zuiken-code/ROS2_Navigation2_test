@@ -31,9 +31,10 @@ LiDAR などの高価なセンサーを使わず、**ホイールエンコーダ
 | パーツ | 製品名 | リンク |
 |---|---|---|
 | コンピュータ | Raspberry Pi 5 | — |
-| シャーシ | 2WD Mini Smart Robot Mobile Platform Kit | [秋月電子](https://akizukidenshi.com/catalog/g/g113651/) |
+| シャーシ | 2WD ロボットシャーシ（240mm × 140mm） | — |
 | エンコーダー | IR 赤外線スロット付きフォトインタラプタセンサー | [Amazon](https://amzn.asia/d/00TZoSjK) |
 | モータードライバー | 2ch DC モータードライブモジュール（ダブル H ブリッジ） | [Amazon](https://amzn.asia/d/0cKkInjR) |
+| LiDAR | YDLIDAR T-mini Plus | — |
 
 ### GPIO ピン配置
 
@@ -89,7 +90,8 @@ ROS2_Navigation2_test/
             │   └── nav2_params.yaml  # Nav2 パラメータ
             ├── launch/
             │   ├── base_driver.launch.py  # 基本起動（手動操縦用）
-            │   └── bringup.launch.py      # Nav2 フル起動（自律走行用）
+            │   ├── bringup.launch.py      # Nav2 フル起動（自律走行用）
+            │   └── slam.launch.py         # SLAM Toolbox + YDLIDAR 起動（地図作成用）
             ├── map/
             │   ├── make_map.py       # 地図生成スクリプト
             │   ├── my_map1.pgm       # 障害物付き地図
@@ -109,11 +111,14 @@ ROS2_Navigation2_test/
 - Raspberry Pi 5
 - ROS 2 Jazzy
 - Navigation2
+- SLAM Toolbox (`ros-jazzy-slam-toolbox`)
+- YDLIDAR ROS 2 Driver (`ydlidar_ros2_driver`)
 
 ### 依存パッケージのインストール
 
 ```bash
 sudo apt install ros-jazzy-navigation2 ros-jazzy-nav2-bringup \
+                 ros-jazzy-slam-toolbox \
                  ros-jazzy-robot-state-publisher ros-jazzy-joint-state-publisher \
                  ros-jazzy-tf2-ros
 ```
@@ -150,6 +155,27 @@ ros2 run turtlesim turtle_teleop_key
 
 > **Note**: `base_driver.launch.py` では `cmd_vel` を `/turtle1/cmd_vel` にリマップしているため、`turtle_teleop_key` でそのまま操縦できます。
 
+### 🗺️ SLAM 地図作成 (YDLIDAR + SLAM Toolbox)
+
+ターミナル 1 (SLAM 起動):
+
+```bash
+ros2 launch base_driver slam.launch.py
+```
+
+ターミナル 2 (手動操縦):
+
+```bash
+ros2 run turtlesim turtle_teleop_key
+```
+
+RViz 上でリアルタイムに地図が生成されるのを確認しながら走行させます。
+地図保存:
+
+```bash
+ros2 run nav2_map_server map_saver_cli -f ~/my_map
+```
+
 ### Nav2 自律走行
 
 ```bash
@@ -181,6 +207,7 @@ python3 make_map.py
 | `wheel_separation` | 0.14 m | 車輪間距離（トレッド） |
 | `ticks_per_rev` | 40 | エンコーダーの 1 回転あたりのティック数 |
 | `footprint` | 0.24m × 0.14m | ロボットの衝突判定形状（長方形: 前方+140mm / 後方-100mm） |
+| `laser_frame` (LiDAR) | x: +0.09m, y: 0.0m | 前端から 50mm 手前・左右中央に配置 |
 
 ### Nav2 主要パラメータ
 
@@ -196,17 +223,17 @@ python3 make_map.py
 
 ```
 map
- └── odom            (static_tf_pub: 静的)
-      └── base_footprint  (encoder_odom: オドメトリ)
+ └── odom            (SLAM時: slam_toolbox が動的推定 / テスト時: static_tf_pub が静的配信)
+      └── base_footprint  (encoder_odom: エンコーダーオドメトリ)
            └── base_link       (URDF: 固定)
                 ├── left_wheel      (URDF: continuous)
                 ├── right_wheel     (URDF: continuous)
-                └── laser_frame     (URDF: 固定)
+                └── laser_frame     (URDF: 固定, YDLIDAR T-mini Plus)
 ```
 
 ## 📝 設計メモ
 
-- **AMCL を使わない理由**: LiDAR がないため、`map` → `odom` の変換は静的 TF で固定しています。これにより自己位置推定の精度は落ちますが、エンコーダーオドメトリのみで Nav2 の経路追従を試すことができます。
+- **SLAM と自己位置推定**: 新たに追加した YDLIDAR T-mini Plus と SLAM Toolbox により、リアルタイムな環境マッピングと高精度な自己位置推定（`map` → `odom`）が可能になりました。
 - **エンコーダーの方向推定**: エンコーダー自体は回転方向を検出できない（スロット式フォトインタラプタ）ため、`cmd_vel` の指令値から回転方向を推定しています。
 - **タイムアウト安全機構**: `cmd_vel` が 0.5 秒以上届かない場合、モーターを自動停止します。
 
